@@ -1,4 +1,7 @@
 # coding:utf8
+import neuron
+
 
 class HiddenLayer:
-    pass
+    def __init__(self):
+        self.neuron = neuron.Neuron
